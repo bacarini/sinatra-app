@@ -1,4 +1,4 @@
-APP_PATH = "/var/www/unicorn"
+APP_PATH = "/var/www/sinatra-app"
 working_directory APP_PATH
 
 stderr_path APP_PATH + "/log/unicorn.stderr.log"
